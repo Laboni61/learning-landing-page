@@ -414,13 +414,31 @@
           </p>
         </div>
         <div class="col-6" style="margin-top: 100px; margin-left: 300px">
-          <button
-            type="button"
-            class="btn btn-lg fw-bolder"
-            style="background-color: white; color: rgb(39, 167, 218);"
-          >
-            Read More
-          </button>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-light btn-outline-warning btn-text-dark text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
+style="width: 180px; height: 50px;">
+  Register Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
         </div>
       </div>
     </section>
